@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Footer() {
   return (
-    <footer className="flex justify-center pb-8 bg-[var(--color-primary)]">
+    <footer className="flex justify-center md:pb-8 bg-[var(--color-primary)]">
       <div 
         className="bg-black text-white flex flex-col justify-between w-full md:mx-4 md:mt-6 md:rounded-lg px-8 py-10 md:px-16 md:py-12"
        
