@@ -16,10 +16,10 @@ export default function Marquee({ text, style, textStyle }: MarqueeProps) {
         <div className="marquee-content flex animate-marquee">
           <span 
             className="
-              marquee-text font-[var(--font-cal-sans)] text-white uppercase 
+              marquee-text font-cal-sans text-white uppercase 
               whitespace-nowrap flex items-center gap-6 md:gap-8
               text-5xl sm:text-6xl md:text-5xl
-              font-semibold leading-none tracking-[-0.015em]
+              leading-none tracking-[-0.015em]
             "
             style={textStyle} // still allows override if needed
           >
@@ -29,10 +29,10 @@ export default function Marquee({ text, style, textStyle }: MarqueeProps) {
           {/* Duplicate for seamless loop */}
           <span 
             className="
-              marquee-text font-[var(--font-cal-sans)] text-white uppercase 
+              marquee-text font-cal-sans text-white uppercase 
               whitespace-nowrap flex items-center gap-6 md:gap-8
               text-5xl sm:text-6xl md:text-5xl 
-              font-semibold leading-none tracking-[-0.015em]
+              leading-none tracking-[-0.015em]
             "
             style={textStyle}
           >

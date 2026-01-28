@@ -28,7 +28,7 @@ export default function Partners() {
             </p>
 
             {/* Button visible only on mobile here (hidden on md+) */}
-            <div className="md:hidden w-full sm:w-auto">
+            <div className="hidden md:block w-full sm:w-auto">
               <button className="w-full rounded-full bg-[var(--color-secondary)] px-8 py-3.5 font-[var(--font-dm-sans)] text-base font-semibold text-white transition hover:bg-[var(--color-tertiary)] sm:w-auto hidden md:block">
                 Partner With Us
               </button>
