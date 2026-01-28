@@ -41,7 +41,7 @@ export default function Mission() {
                   alt={item.title} 
                   width={i === 0 ? 80 : 40} 
                   height={i === 0 ? 80 : 40} 
-                  className={`${i === 0 ? "w-20 h-20" : "w-10 h-10"} object-contain`}
+                  className={`${i === 0 ? "w-100 h-100" : "w-10 h-10"} object-contain`}
                 />
               </div>
               

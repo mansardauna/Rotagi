@@ -25,7 +25,7 @@ export default function Header() {
   const closeMenu = () => setIsOpen(false);
 
   return (
-    <header className="sticky top-0 z-50 w-full bg-white border-b border-gray-200 shadow-sm">
+    <header className="sticky top-0 z-50 w-full bg-white border-b border-gray-300 py-3">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         {/* Logo */}
         <div className="font-cal-sans text-2xl font-bold uppercase tracking-tight text-secondary">
@@ -33,7 +33,7 @@ export default function Header() {
         </div>
 
         {/* Desktop Nav + CTA */}
-        <div className="hidden items-center gap-10 md:flex">
+        
           <nav className="flex gap-8">
             {navItems.map((item) => (
               <a
@@ -53,7 +53,6 @@ export default function Header() {
           >
             Donate Now
           </Button>
-        </div>
 
         {/* Mobile Hamburger */}
         <button
