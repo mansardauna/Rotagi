@@ -16,18 +16,18 @@ export default function Impact() {
       <div className="flex w-full max-w-[1260px] flex-col gap-10 px-5 md:px-0 md:gap-[76px]">
         {/* Title + text + button area */}
         <div className="flex flex-col gap-8 md:flex-row md:items-start md:justify-between">
-          <h2 className="font-[var(--font-cal-sans)] text-[var(--color-dark)] text-4xl font-semibold  leading-tight tracking-tight md:max-w-[486px] md:text-[46px]">
+          <h2 className="font-cal-sans text-[var(--color-dark)] text-4xl  leading-tight tracking-tight md:max-w-[486px] md:text-[46px]">
             Access That Creates Impact
           </h2>
 
           <div className="flex flex-col items-start gap-6 md:max-w-[580px]">
-            <p className="font-[var(--font-dm-sans)] text-[var(--color-darkgray)] text-left text-base leading-relaxed md:text-[16px] md:leading-[160%]">
+            <p className="-font-dm-sans text-[var(--color-darkgray)] text-left text-base leading-relaxed md:text-[16px] md:leading-[160%]">
               Since 2020, ROTAGIF has equipped hundreds of girls and women with skills that translate into confidence, careers, and community transformation across Africa.
             </p>
 
             {/* Button only on mobile in top section (hidden on md+) */}
             <div className="md:hidden w-full sm:w-auto">
-              <button className="w-full rounded-full bg-[var(--color-secondary)] px-8 py-3.5 font-[var(--font-dm-sans)] text-base font-semibold text-white transition hover:bg-[var(--color-tertiary)] sm:w-auto hidden md:block">
+              <button className="w-full rounded-full bg-[var(--color-secondary)] px-8 py-3.5 font-dm-sans text-base font-semibold text-white transition hover:bg-[var(--color-tertiary)] sm:w-auto hidden md:block">
                 Learn More
               </button>
             </div>
@@ -43,10 +43,10 @@ export default function Impact() {
                 key={stat.label}
                 className="flex h-[270px] flex-col items-center justify-center gap-4 rounded-[40px] bg-white px-12 py-14 md:px-[59px] md:py-14"
               >
-                <div className="font-[var(--font-cal-sans)] text-[5rem] font-light leading-none text-[var(--color-gray)] lg:text-[96px]">
+                <div className="font-cal-sans text-[5rem] font-light leading-none text-[var(--color-gray)] lg:text-[96px]">
                   {stat.num}
                 </div>
-                <div className="font-[var(--font-dm-sans)] text-lg text-center text-[var(--color-gray)] md:text-[18px] md:leading-[140%]">
+                <div className="font-dm-sans text-lg text-center text-[var(--color-gray)] md:text-[18px] md:leading-[140%]">
                   {stat.label}
                 </div>
               </div>

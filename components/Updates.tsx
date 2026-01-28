@@ -34,12 +34,12 @@ export default function Updates() {
       <div className="flex w-full max-w-[1260px] flex-col gap-10 px-5 md:px-0 md:gap-[76px]">
         {/* Title + description + button area */}
         <div className="flex flex-col gap-8 md:flex-row md:items-start md:justify-between">
-          <h2 className="font-[var(--font-cal-sans)] text-[var(--color-dark)] text-4xl font-semibold leading-tight tracking-tight md:max-w-[486px] md:text-[46px]">
+          <h2 className="font-cal-sans text-[var(--color-dark)] text-4xl leading-tight tracking-tight md:max-w-[486px] md:text-[46px]">
             Updates from the Work That Matters
           </h2>
 
           <div className="flex flex-col items-start gap-6 md:max-w-[580px]">
-            <p className="font-[var(--font-dm-sans)] text-[var(--color-darkgray)] text-left text-base leading-relaxed md:text-[16px] md:leading-[160%]">
+            <p className="font-dm-sans text-[var(--color-darkgray)] text-left text-base leading-relaxed md:text-[16px] md:leading-[160%]">
               Program highlights, impact milestones, and how we’re advancing opportunity and digital empowerment.
             </p>
 
@@ -70,7 +70,7 @@ export default function Updates() {
                 </div>
 
                 <div className="flex flex-1 flex-col gap-3 px-4 py-5">
-                  <span className="text-xs font-bold uppercase tracking-wider text-[var(--color-secondary)] font-[var(--font-dm-sans)]">
+                  <span className="text-xs font-bold uppercase tracking-wider text-[var(--color-secondary)] font-dm-sans">
                     {update.category}
                   </span>
 

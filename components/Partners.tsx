@@ -7,7 +7,7 @@ const partnerLogos = [
   { name: "Apple Pay", logo: "/ApplePay.png" },
   { name: "Skrill", logo: "/Skrill.png" },
   // Add more real partners here when ready:
-  // { name: "Paystack", logo: "/paystack.png" },
+   { name: "Paystack", logo: "/PayPass.svg" },
   // { name: "Flutterwave", logo: "/flutterwave.png" },
   // { name: "Visa", logo: "/visa.png" },
 ];
@@ -18,12 +18,12 @@ export default function Partners() {
       <div className="flex w-full max-w-[1260px] flex-col gap-10 px-5 md:px-0 md:gap-[76px]">
         {/* Title + description + button area */}
         <div className="flex flex-col gap-8 md:flex-row md:items-start md:justify-between">
-          <h2 className="font-[var(--font-cal-sans)] text-[var(--color-dark)] text-4xl font-semibold  leading-tight tracking-tight md:max-w-[486px] md:text-[46px]">
+          <h2 className="font-cal-sans text-[var(--color-dark)] text-4xl leading-tight tracking-tight md:max-w-[486px] md:text-[46px]">
             Trusted by Purpose-Driven Organizations
           </h2>
 
           <div className="flex flex-col items-start gap-6 md:max-w-[580px]">
-            <p className="font-[var(--font-dm-sans)] text-[var(--color-darkgray)] text-left text-base leading-relaxed md:text-[16px] md:leading-[160%]">
+            <p className="font-dm-sans text-[var(--color-darkgray)] text-left text-base leading-relaxed md:text-[16px] md:leading-[160%]">
               We collaborate with partners who believe in measurable impact, inclusive growth, and empowering the next generation of African women.
             </p>
 
@@ -79,7 +79,7 @@ export default function Partners() {
 
           {/* Button below slider on mobile */}
           <div className="mt-10 flex justify-center md:hidden">
-            <button className="rounded-full bg-[var(--color-secondary)] px-10 py-3.5 font-[var(--font-dm-sans)] text-base font-semibold text-white transition hover:bg-[var(--color-tertiary)]">
+            <button className="rounded-full bg-[var(--color-secondary)] px-10 py-3.5 font-dm-sans text-base font-semibold text-white transition hover:bg-[var(--color-tertiary)]">
               Partner With Us
             </button>
           </div>

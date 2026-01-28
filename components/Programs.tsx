@@ -16,7 +16,7 @@ const programs = [
 export default function Programs() {
   return (
     <section className="bg-[var(--color-primary)] md:py-20 flex justify-center">
-      <div className="relative mx-4 w-full max-w-7xl md:rounded-[19px] bg-[var(--color-secondary)] px-4 pb-[55px] pt-[55px]">
+      <div className="relative mx-4 w-full max-w-8xl md:rounded-[19px] bg-[var(--color-secondary)] px-4 pb-[55px] pt-[55px]">
         <div className="mx-auto mb-16 max-w-3xl text-center">
           <h2 className="font-cal-sans text-5xl leading-none tracking-tight text-white">
             Our Programs

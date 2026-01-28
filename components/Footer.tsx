@@ -10,7 +10,7 @@ export default function Footer() {
         <div className="flex flex-col lg:flex-row justify-between gap-8 pt-4 w-full">
           {/* Brand & Description */}
           <div className="max-w-[300px]">
-            <h2 className="text-5xl font-bold mb-6 font-[var(--font-cal-sans)]">ROTAGI</h2>
+            <h2 className="text-5xl mb-6 font-cal-sans">ROTAGI</h2>
             <p className="text-gray-300 leading-relaxed font-[var(--font-dm-sans)] text-sm">
               Empowering young African girls and women with AI literacy, digital confidence, and leadership skills.
             </p>

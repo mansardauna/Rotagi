@@ -25,10 +25,10 @@ export default function Mission() {
   return (
     <section className="py-24 bg-[var(--color-primary)]">
       <div className="mx-auto px-6 lg:px-8 flex flex-col items-center text-center max-w-[1181px]">
-        <h2 className="font-[var(--font-cal-sans)] text-[46px] leading-[100%] tracking-normal text-[var(--color-dark)] mb-6 font-semibold">
+        <h2 className="font-cal-sans text-[46px] leading-[100%] tracking-normal text-[var(--color-dark)] mb-6">
           Our Integrated Mission
         </h2>
-        <p className="font-[var(--font-dm-sans)] text-[18px] leading-[35px] tracking-[-0.01em] text-[var(--color-gray)] max-w-[662px] mb-20">
+        <p className="font-dm-sans text-[18px] leading-[35px] tracking-[-0.01em] text-[var(--color-gray)] max-w-[662px] mb-20">
           ROTAGI equips African girls and women across Africa with AI literacy and digital confidence to build solutions and lead the global economy.
         </p>
 

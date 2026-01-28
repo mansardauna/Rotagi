@@ -44,7 +44,7 @@ export default function Hero() {
                 text-lg sm:text-base md:text-lg 
                 text-[rgb(186,186,186)]
                 font-light leading-relaxed max-w-[610px]
-                font-header
+                font-dm-sans
               "
             >
               The next breakthrough could come from her. We are making sure
@@ -60,7 +60,7 @@ export default function Hero() {
             >
               <Button 
                 variant="white" 
-                className="min-w-[217.55px] h-[50px] rounded-[34px] px-[34px] py-[15px] gap-[8px] !text-base whitespace-nowrap cursor-pointer"
+                className="min-w-[217.55px] h-[50px] rounded-[34px] px-[34px] py-[15px] gap-[8px] !text-base whitespace-nowrap cursor-pointer font-dm-sans"
               >
                 Explore Programs
                 <ArrowRightIcon className="w-6 h-6" />

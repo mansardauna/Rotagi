@@ -13,21 +13,20 @@ export default function Header() {
   const closeMenu = () => setIsOpen(false);
 
   return (
-    <header className="absolute left-1/2 md:top-[60px] z-50 mx-auto w-full max-w-[1274px] -translate-x-1/2 px-4 md:px-10 py-5 md:py-0">
-      <div className="flex items-center justify-between">
+    <header className="md:top-0 z-50 w-full px-4 md:px-0 py-5 md:py-5 bg-white border-b border-gray-300">
+      <div className="flex items-center justify-between w-7xl mx-auto">
         {/* Logo */}
-        <div className="text-white font-inter font-bold uppercase tracking-[-0.67px] text-2xl drop-shadow-[0_2px_4px_rgba(0,0,0,0.3)]">
+        <div className=" font-inter text-secondary font-cal-sans uppercase tracking-[-0.67px] text-2xl drop-shadow-[0_2px_4px_rgba(0,0,0,0.3)]">
           ROTAGI
         </div>
 
         {/* Desktop Navigation + Donate Button */}
-        <div className="hidden items-center gap-10 md:flex">
           <nav className="flex items-center gap-10">
             {navItems.map((item) => (
               <a
                 key={item}
                 href={`#${item.toLowerCase()}`}
-                className="font-dm-sans font-medium text-white/90 transition hover:text-white text-base"
+                className="font-dm-sans transition hover:text-secondary text-base"
               >
                 {item}
               </a>
@@ -35,13 +34,12 @@ export default function Header() {
           </nav>
 
           <Button
-            variant="white"
+            variant="primary"
             size="md"
             className="font-dm-sans font-semibold text-sm md:text-base whitespace-nowrap"
           >
             Donate Now
           </Button>
-        </div>
 
         {/* Mobile Hamburger Button */}
         <button
