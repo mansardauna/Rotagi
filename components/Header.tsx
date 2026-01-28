@@ -34,7 +34,7 @@ export default function Header() {
 
         {/* Desktop Nav + CTA */}
         
-          <nav className="flex gap-8">
+          <nav className="md:flex hidden gap-8">
             {navItems.map((item) => (
               <a
                 key={item}
@@ -46,13 +46,15 @@ export default function Header() {
             ))}
           </nav>
 
+<div className="hidden md:block">
           <Button
             variant="primary"
             size="md"
-            className="font-dm-sans font-semibold"
+            className="font-dm-sans  font-semibold"
           >
             Donate Now
           </Button>
+        </div>
 
         {/* Mobile Hamburger */}
         <button
